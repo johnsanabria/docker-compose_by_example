@@ -1,0 +1,9 @@
+version: "3.3"
+
+services:
+        mycontainer:
+                container_name: demo
+                hostname: demo
+                image: alpine
+                stdin_open: true
+                tty: true

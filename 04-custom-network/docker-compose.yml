@@ -1,0 +1,19 @@
+version: "3.3"
+
+services:
+        cont1:
+                image: alpine
+                stdin_open: true
+                tty: true
+                networks:
+                  - mypn
+        cont2:
+                image: ubuntu
+                stdin_open: true
+                tty: true
+                networks:
+                  - mypn
+
+
+networks:
+        mypn:

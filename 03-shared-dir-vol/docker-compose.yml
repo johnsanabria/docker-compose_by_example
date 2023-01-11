@@ -1,0 +1,9 @@
+version: "3.3"
+
+services:
+        mycontainer:
+                image: alpine
+                stdin_open: true
+                tty: true
+                volumes:
+                        - ./:/workdir
