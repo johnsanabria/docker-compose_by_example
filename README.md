@@ -3,7 +3,7 @@
 Docker Compose es una herramienta que permite la ejecución orquestada de contenedores sobre un mismo computador.
 En este repositorio encontrará 6 ejemplos de como se puede llevar a cabo la ejecución de contenedores pero a través del comando `docker-compose`.
 
-- <01-interactive>: En este directorio se presenta un `docker-compose.yml` que lanza la ejecución de un contenedor de `alpine` y el cual el usuario lo puede acceder de forma análoga a como si se hubiese ejecutado el contenedor de esta manera: 
+- [01-interactive](01-interactive): En este directorio se presenta un `docker-compose.yml` que lanza la ejecución de un contenedor de `alpine` y el cual el usuario lo puede acceder de forma análoga a como si se hubiese ejecutado el contenedor de esta manera: 
 
 ```
 docker container run --name demo --hostname demo -it alpine
